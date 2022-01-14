@@ -45,15 +45,26 @@ https://www.youtube.com/watch?v=Kdsp6soqA7o
 - False Positive: the predicted label by model is positive, however, the true label is negative
 - False Negative: the predicted label is negative, however, the true label is positive
 
-# Metrics： Sensitivity and Specificity
+# Metrics： Sensitivity (Recall), Specificity and Precision
 
 https://www.youtube.com/watch?v=vP06aMoz4v8
 
-- Sensitivity: the percentage or proportion of true labels of positive that are correctly classified by model
+- Sensitivity or Recall (first column of confustion matrix): the percentage or proportion of true labels of positive that are correctly classified by model
 ![image](https://user-images.githubusercontent.com/60442877/149472743-3c695746-b05c-4c29-b993-03e752474f56.png)
 ![image](https://user-images.githubusercontent.com/60442877/149472819-6a216abc-d320-4dd9-93b2-24fd0ceb3068.png)
-- Specificity: the percentage or proportion of true labels of negative that are correctly classified by model
+- Specificity (second column of confustion matrix): the percentage or proportion of true labels of negative that are correctly classified by model
+![image](https://user-images.githubusercontent.com/60442877/149473181-965ae655-0a2a-41ce-a03f-17c198c5b98e.png)
 ![image](https://user-images.githubusercontent.com/60442877/149473116-6dd3b942-1535-4626-b5c4-0097a6fc3ed2.png)
+- Precision (first row of confustion matrix): the percentage or proportion of predicted labels of positive that are actually true label
+![image](https://user-images.githubusercontent.com/60442877/149480218-6ce80acb-2e2f-4b74-ae1e-c3a69dbd27e0.png)
+
+Note: 
+1. If correctly identifying positive labels is the most important thing to do with the data, we should choose a method with higher sensitivity
+2. If correctly identifying negative labels is the most important thing to do with the data, we should choose a method with higher specificity
+
+
+
+
 
 # Metrics: ROC and AUC
 
