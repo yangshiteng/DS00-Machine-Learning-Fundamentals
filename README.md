@@ -49,8 +49,11 @@ https://www.youtube.com/watch?v=Kdsp6soqA7o
 
 https://www.youtube.com/watch?v=vP06aMoz4v8
 
-- Sensitivity: the percentage or proportion of actual positive 
-- Specificity
+- Sensitivity: the percentage or proportion of true labels of positive that are correctly classified by model
+![image](https://user-images.githubusercontent.com/60442877/149472743-3c695746-b05c-4c29-b993-03e752474f56.png)
+![image](https://user-images.githubusercontent.com/60442877/149472819-6a216abc-d320-4dd9-93b2-24fd0ceb3068.png)
+- Specificity: the percentage or proportion of true labels of negative that are correctly classified by model
+![image](https://user-images.githubusercontent.com/60442877/149473116-6dd3b942-1535-4626-b5c4-0097a6fc3ed2.png)
 
 # Metrics: ROC and AUC
 
