@@ -63,11 +63,10 @@ Note:
 2. If correctly identifying negative labels is the most important thing to do with the data, we should choose a method with higher specificity
 
 
+# Metrics: ROC graph and AUC (Area under the Curve)
 
+https://www.youtube.com/watch?v=4jRBRDbJemM
 
-
-# Metrics: ROC and AUC
-
-- ROC
-- AUC
+- ROC curve: x-axis is the False Positive Rate (1 - specificity), y-axis is the True Positive Rate (Sensitivity or Recall)
+- AUC (Area under the Curve): it makes it easy to compare one ROC curve to another, the higer AUC, the better model
 
