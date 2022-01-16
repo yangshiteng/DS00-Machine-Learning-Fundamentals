@@ -73,3 +73,10 @@ https://www.youtube.com/watch?v=4jRBRDbJemM
 - ROC curve: x-axis is the False Positive Rate (1 - specificity), y-axis is the True Positive Rate (Sensitivity or Recall)
 - AUC (Area under the Curve): it makes it easy to compare one ROC curve to another, the higer AUC, the better model
 
+
+# Likelihood vs Probability 
+
+https://www.youtube.com/watch?v=pYxNSUDSFH4
+
+![image](https://user-images.githubusercontent.com/60442877/149656815-1a63f325-0f28-46fe-bba2-7939f2ecdfea.png)
+
