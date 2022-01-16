@@ -23,6 +23,9 @@ https://www.youtube.com/watch?v=EuBBz3bI-aA&t=0s
 - 3. Bagging
 - In machine learing terminology, the difference in fits between testing and training data sets is called variance (or variation)
 - The inability for a machine learing model to capture the true relationship in training dataset is called bias
+- Bias in machine learning terminology is a metric to evaluate the model performance in training dataset
+- Variance in machine learning terminology is a metric to compare the model performance in training and testing dataset
+- Good model should have both low bias and low variance
 - Note that, the bias and variance definition in Statistics is different from the one of Machine Learning
 
 # Cross Validation
